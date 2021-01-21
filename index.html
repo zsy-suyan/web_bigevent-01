@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>首页</title>
+    <title>大事件</title>
     <!-- 引入字体图标 -->
+    <link rel="shortcut icon" href="/assets/images/1728505c1twpbwo9kp1c49.jpg.icon.ico">
     <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     <link rel="stylesheet" href="assets/lib/layui/css/layui.css">
     <link rel="stylesheet" href="/assets/css/index.css">
@@ -17,9 +18,9 @@
             <div class="layui-logo"><img src="/assets/images/logo.png" alt=""></div>
             <!-- 头部区域（可配合layui已有的水平导航） -->
             <ul class="layui-nav layui-layout-left">
-                <li class="layui-nav-item"><a href="">控制台</a></li>
+                <!-- <li class="layui-nav-item"><a href="">控制台</a></li>
                 <li class="layui-nav-item"><a href="">商品管理</a></li>
-                <li class="layui-nav-item"><a href="">用户</a></li>
+                <li class="layui-nav-item"><a href="">用户</a></li> -->
                 <li class="layui-nav-item">
                     <a href="javascript:;">其它系统</a>
                     <dl class="layui-nav-child">
@@ -66,10 +67,10 @@
                         <a class="" href="javascript:;"><span class="iconfont">&#xe615</span>文章管理</a>
                         <dl class="layui-nav-child">
                             <dd>
-                                <a href="javascript:;"> <i class="layui-icon layui-icon-app"></i> 文章类别</a>
+                                <a href="/article/art_cate.html" target='fm'> <i class="layui-icon layui-icon-app"></i> 文章类别</a>
                             </dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 文章列表</a></dd>
-                            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i> 发布文章</a></dd>
+                            <dd><a id="art_list" href="/article/art_list.html" target="fm"><i class="layui-icon layui-icon-app"></i> 文章列表</a></dd>
+                            <dd><a href="/article/art_pub.html" target="fm"><i class="layui-icon layui-icon-app"></i> 发布文章</a></dd>
 
                         </dl>
                     </li>

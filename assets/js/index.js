@@ -3,7 +3,7 @@ $(function() {
         //实现退出功能化
     $('#close').on('click', function() {
 
-        console.log(3425);
+        //  console.log(3425);
         layer.confirm('大哥确定退出?', { icon: 3, title: '警告' }, function(index) {
             //点击确定退出,清空本地的token,然后回到登录
             localStorage.removeItem('token')
